@@ -20,9 +20,10 @@
             android:onClick="onClick"
             />
     <Button android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:tag="grid_layout"
+
             android:text="网络布局实现注册窗口"
             android:onClick="onClick"
+            android:id="@+id/btnGridLayout"
             />
 </LinearLayout>
 
