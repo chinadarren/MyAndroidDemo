@@ -8,7 +8,7 @@
     <TextView android:text="用户名"/>
     <EditText android:layout_columnSpan="4"
             android:layout_gravity="fill_horizontal"
-            android:hint="2-10ge字符"
+            android:hint="2-10个字符"
             />
 <TextView android:text="输入密码"/>
     <EditText android:layout_columnSpan="4"
