@@ -1,48 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--线性布局-->
+<!--常用控件-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:orientation="vertical"
-        >
-    <LinearLayout android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:orientation="horizontal">
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:id="@+id/tvName"
-                  android:text="用户名"
-                  android:textSize="30sp"
-                  android:textColor="#006000"
-                />
-        <EditText android:layout_width="0dp"
-                  android:layout_height="wrap_content"
-                  android:textSize="30sp"
-                  android:id="@+id/etName"
-                  android:hint="0-20字符"
-                  android:layout_weight="1"
-                  android:background="#fff"
-                />
-    </LinearLayout>
-    <LinearLayout android:orientation="horizontal"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content">
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:id="@+id/tvPwd"
-                  android:text="密    码"
-                  android:textSize="30sp"
-                  android:textColor="#006000"
-                />
-<EditText android:layout_width="0dp"
-          android:id="@+id/etPwd"
-          android:layout_height="wrap_content"
-          android:textSize="30sp"
-          android:password="true"
-          android:layout_weight="1"
-          android:hint="2-10个字符"
-          android:background="#fff"
-        />
-    </LinearLayout>
-
+              android:orientation="vertical">
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="线性布局实现注册窗口"
+            android:tag="linear_layout"
+            android:onClick="onClick"
+            />
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="相对布局实现注册窗口"
+            android:tag="relative_layout"
+            android:onClick="onClick"
+            />
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="表格布局实现注册窗口"
+            android:tag="table_layout"
+            android:onClick="onClick"
+            />
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:tag="grid_layout"
+            android:text="网络布局实现注册窗口"
+            android:onClick="onClick"
+            />
 </LinearLayout>
+
+
+        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+        <!--网格布局-->
+        <!--<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:columnCount="5"-->
+        <!--android:orientation="horizontal">-->
+        <!--<TextView android:text="用户名"/>-->
+        <!--<EditText android:layout_columnSpan="4"-->
+        <!--android:layout_gravity="fill_horizontal"-->
+        <!--android:hint="2-10个字符"-->
+        <!--/>-->
+        <!--<TextView android:text="密    码"/>-->
+        <!--dd<EditText android:layout_columnSpan="4"-->
+        <!--android:layout_gravity="fill_horizontal"-->
+        <!--android:hint="2-10个字符"-->
+        <!--/>-->
+        <!--<TextView android:layout_columnSpan="5"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:visibility="invisible"-->
+        <!--/>-->
+        <!--<Button android:text="不啊"-->
+        <!--android:visibility="invisible"-->
+        <!--/>-->
+
+        <!--<Button android:background="@drawable/btn_bg"-->
+        <!--android:drawableLeft="@drawable/login32x32"-->
+        <!--android:text="登陆"-->
+        <!--android:textColor="#fff"-->
+        <!--/>-->
+        <!--<Button android:text="填充占位用"-->
+        <!--android:visibility="invisible"-->
+        <!--/>-->
+        <!--<Button android:background="@drawable/btn_bg"-->
+        <!--android:drawableLeft="@drawable/exit32x32"-->
+        <!--android:text="退出"-->
+        <!--android:textColor="#fff"-->
+        <!--/>-->
+        <!--<Button android:text="不"-->
+        <!--android:visibility="invisible"-->
+        <!--/>-->
+        <!--</GridLayout>-->
+        <!--@@@@@@@@@@@@@@@@@-->
+        <!--表格布局       -->
+        <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical">-->
+        <!--&lt;!&ndash;设置表格布局，并设置第一列自动拉伸&ndash;&gt;-->
+        <!--<TableLayout-->
+        <!--android:stretchColumns="1"-->
+        <!--android:layout_width="match_parent" android:layout_height="wrap_content"-->
+        <!-->-->
+        <!--&lt;!&ndash;表格第一行：输入用户名&ndash;&gt;-->
+        <!--<TableRow>-->
+        <!--<TextView android:text="用户名"/>-->
+        <!--<EditText android:hint="字符2~10个字符"/>-->
+        <!--</TableRow>-->
+        <!--&lt;!&ndash;表格第二行：输入密码&ndash;&gt;-->
+        <!--<TableRow>-->
+        <!--<TextView android:text="密    码"/>-->
+        <!--<EditText android:layout_weight="1"-->
+        <!--android:hint="字符2~10个字符"-->
+        <!--android:password="true"-->
+        <!--></EditText>-->
+        <!--</TableRow>-->
+        <!--</TableLayout>-->
+        <!--&lt;!&ndash;线性布局：两个按钮&ndash;&gt;-->
+        <!--<TableLayout android:layout_marginTop="10dp"-->
+        <!--android:stretchColumns="0,1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TableRow>-->
+        <!--<Button android:padding="3dp"-->
+        <!--android:text="登陆"-->
+        <!--android:textColor="#fff"-->
+        <!--android:background="@drawable/btn_bg"-->
+        <!--android:drawableLeft="@drawable/login32x32"-->
+        <!--/>-->
+        <!--<Button android:padding="3dp"-->
+        <!--android:text="退出"-->
+        <!--android:textColor="#fff"-->
+        <!--android:background="@drawable/btn_bg"-->
+        <!--android:drawableLeft="@drawable/exit32x32"-->
+        <!--/>-->
+        <!--</TableRow>-->
+        <!--</TableLayout>-->
+        <!--</LinearLayout>-->
+        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@        -->
+        <!--线性布局-->
+        <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:paddingTop="10dp"-->
+        <!-->-->
+        <!--<LinearLayout android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<TextView android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tvName"-->
+        <!--android:text="用户名"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textColor="#006000"-->
+        <!--/>-->
+        <!--<EditText android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="30sp"-->
+        <!--android:id="@+id/etName"-->
+        <!--android:hint="2-10字符"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="#fff"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="10dp"-->
+        <!-->-->
+        <!--<TextView android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tvPwd"-->
+        <!--android:text="密    码"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textColor="#006000"-->
+        <!--/>-->
+        <!--<EditText android:layout_width="0dp"-->
+        <!--android:id="@+id/etPwd"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:textSize="30sp"-->
+        <!--android:password="true"-->
+        <!--android:layout_weight="1"-->
+        <!--android:hint="2-10个字符"-->
+        <!--android:background="#fff"-->
+
+        <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:orientation="horizontal"-->
+        <!-->-->
+        <!--<View android:layout_width="0dp" android:layout_height="30dp"-->
+        <!--android:visibility="invisible"-->
+        <!--android:layout_weight="1"/>-->
+        <!--<Button android:layout_width="wrap_content" android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btnLogin"-->
+        <!--android:background="@drawable/btn_bg"-->
+        <!--android:drawableLeft="@drawable/login32x32"-->
+        <!--android:textColor="#fff"-->
+        <!--android:text="登陆"-->
+        <!--android:paddingLeft="2dp"-->
+        <!--/>-->
+        <!--<View android:layout_width="0dp" android:layout_height="30dp"-->
+        <!--android:visibility="invisible"-->
+        <!--android:layout_weight="1"/>-->
+        <!--<Button android:layout_width="wrap_content" android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btnExit"-->
+        <!--android:background="@drawable/btn_bg"-->
+        <!--android:drawableLeft="@drawable/exit32x32"-->
+        <!--android:textColor="#fff"-->
+        <!--android:text="退出"-->
+        <!--android:paddingLeft="2dp"-->
+        <!--/>-->
+        <!--<View android:layout_width="0dp" android:layout_height="30dp"-->
+        <!--android:visibility="invisible"-->
+        <!--android:layout_weight="1"/>-->
+        <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
