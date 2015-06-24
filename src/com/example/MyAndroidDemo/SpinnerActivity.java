@@ -19,8 +19,8 @@ public class SpinnerActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gird_layout);
 
-        spinner2 = (Spinner)findViewById(R.id.spinner02);
-        view2 = (TextView) findViewById(R.id.spinnerText02);
+        spinner2 = (Spinner)findViewById(R.id.Spinner01);
+        view2 = (TextView) findViewById(R.id.spinnerText);
          //将可选内容与ArrayAadpter链接起来
         adapter2 = ArrayAdapter.createFromResource(this, R.array.citys,android.R.layout.simple_spinner_item);
         //设置下拉列表的风格

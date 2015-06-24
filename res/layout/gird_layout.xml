@@ -46,9 +46,13 @@
     </RadioGroup>
 <TextView  android:layout_marginTop="10dp"
            android:text="所在地"
+           android:id="@+id/spinnerText"
         />
-<Spinner android:layout_columnSpan="4"
-         android:layout_marginTop="10dp"/>
+    <Spinner android:id="@+id/Spinner01"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_columnSpan="4"
+             android:layout_marginTop="10dp"></Spinner>
 
     <TextView android:layout_marginTop="10dp"
             android:text="选择爱好"

@@ -21,7 +21,17 @@ public class MyActivity extends Activity {
             case R.id.btnReturn:
                 setContentView(R.layout.main);
             break;
+            case R.id.btnLinearLayout:
+                setContentView(R.layout.linear_layout);
+                break;
+            case R.id.linearReturn:
+                setContentView(R.layout.main);
+                break; case R.id.btnTableLayout:
+                setContentView(R.layout.table_layout);
+                break;
+                case R.id.tableReturn:
+                setContentView(R.layout.main);
+                break;
         }
     }
-
 }
