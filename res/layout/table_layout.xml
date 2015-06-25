@@ -50,6 +50,18 @@
         </RadioGroup>
         </TableRow>
     </TableLayout>
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView  android:layout_marginTop="10dp"
+                   android:text="所在地"
+                   android:id="@+id/spinnerText"
+                />
+        <Spinner android:id="@+id/Spinner01"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_columnSpan="4"
+                 android:layout_marginTop="10dp"></Spinner>
+
+    </TableLayout>
     <!--线性布局：两个按钮-->
     <TableLayout android:layout_marginTop="10dp"
                  android:stretchColumns="0,1"
