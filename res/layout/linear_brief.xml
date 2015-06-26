@@ -28,10 +28,12 @@
 
 <Button android:layout_width="fill_parent" android:layout_height="wrap_content"
         android:id="@+id/linearBriefreturn"
+        android:onClick="onClick"
         android:text="返回上层"
         />
     <Button android:layout_width="fill_parent" android:layout_height="wrap_content"
             android:text="返回首页"
+            android:onClick="onClick"
             android:id="@+id/btnLinearBriefreturn"
             />
 </LinearLayout>

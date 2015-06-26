@@ -13,6 +13,7 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
+
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnGridLayout:
@@ -39,9 +40,9 @@ public class MyActivity extends Activity {
             case R.id.reativeReturn:
                 setContentView(R.layout.main);
                 break;
-            case  R.id.linearBrief:
+            case R.id.linearBrief:
                 setContentView(R.layout.linear_brief);
-            break;
+                break;
             case R.id.linearBriefreturn:
                 setContentView(R.layout.linear_brief);
                 break;
