@@ -69,7 +69,7 @@
                  android:layout_height="wrap_content">
         <TableRow>
             <Button android:padding="3dp"
-                    android:text="登陆"
+                    android:text="注册"
                     android:textColor="#fff"
                     android:background="@drawable/btn_bg"
                     android:drawableLeft="@drawable/login32x32"

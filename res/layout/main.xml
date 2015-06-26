@@ -4,6 +4,11 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="Android Practice"
+              android:gravity="center"
+              android:textSize="30dp"
+            />
     <Button android:layout_width="match_parent" android:layout_height="wrap_content"
             android:text="线性布局实现注册窗口"
             android:tag="linear_layout"
@@ -14,6 +19,7 @@
             android:text="相对布局实现注册窗口"
             android:tag="relative_layout"
             android:onClick="onClick"
+            android:id="@+id/btnRelative"
             />
     <Button android:layout_width="match_parent" android:layout_height="wrap_content"
             android:text="表格布局实现注册窗口"
