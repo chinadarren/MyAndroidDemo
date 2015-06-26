@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--方案二-->
+<LinearLayout
+        xmlns:android1="http://schemas.android.com/apk/res/android"
+        android1:orientation="vertical"
+        android1:layout_width="fill_parent"
+        android1:layout_height="fill_parent">
+    <TableLayout android1:id="@+id/TableLayout01"
+                 android1:layout_width="fill_parent"
+                 android1:layout_height="wrap_content">
+    </TableLayout>
+</LinearLayout>
+
+        <!--@@@@@@@@@@@@@@@@@@@@@@@@-->
+        <!--方案一-->
+        <!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:tools="http://schemas.android.com/tools"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--tools:context=".MainActivity"-->
+        <!--android:stretchColumns="0">-->
+        <!--<TableRow>-->
+
+        <!--<TextView-->
+        <!--android:text="第一行第一列"-->
+        <!--android:background="#aa0000"-->
+        <!--android:padding="3dip"-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:text="第一行第二列"-->
+        <!--android:padding="3dip"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:background="#00aa00"-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:text="第一行第三列"-->
+        <!--android:gravity="right"-->
+        <!--android:background="#0000aa"-->
+        <!--android:padding="3dip"-->
+        <!--/>-->
+        <!--</TableRow>-->
+        <!--<TableRow>-->
+        <!--<TextView-->
+        <!--android:text="第二行第一列"-->
+        <!--android:padding="3dip"-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:text="第二行第二列"-->
+        <!--android:padding="3dip"-->
+        <!--android:layout_gravity="right"-->
+        <!--/>-->
+        <!--</TableRow>-->
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/hello_world"-->
+        <!--/>-->
+        <!--</TableLayout>-->

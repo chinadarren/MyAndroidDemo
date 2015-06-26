@@ -26,6 +26,11 @@
             android:onClick="onClick"
             android:id="@+id/btnGridLayout"
             />
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="表格布局练习界面"
+            android:onClick="onClick"
+            android:id="@+id/Table01"
+            />
 </LinearLayout>
 
 
