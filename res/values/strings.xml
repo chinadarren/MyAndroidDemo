@@ -3,4 +3,10 @@
     <string name="app_name">MyAndroidDemo</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string-array name="citys">
+        <item>北京</item>
+        <item>上海</item>
+        <item>天津</item>
+        <item>深圳</item>
+    </string-array>
 </resources>

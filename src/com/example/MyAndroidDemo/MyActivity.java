@@ -44,7 +44,7 @@ public class MyActivity extends Activity {
                 setContentView(R.layout.linear_brief);
                 break;
             case R.id.linearBriefreturn:
-                setContentView(R.layout.linear_brief);
+                setContentView(R.layout.linear_layout);
                 break;
             case R.id.btnLinearBriefreturn:
                 setContentView(R.layout.main);

@@ -27,8 +27,8 @@
     android:layout_margin=10dp 设置自身对象边缘与父布局的边缘之间的空白。"/>
 
 <Button android:layout_width="fill_parent" android:layout_height="wrap_content"
-        android:id="@+id/linearBriefreturn"
         android:onClick="onClick"
+        android:id="@+id/linearBriefreturn"
         android:text="返回上层"
         />
     <Button android:layout_width="fill_parent" android:layout_height="wrap_content"
