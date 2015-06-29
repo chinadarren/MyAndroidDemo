@@ -49,6 +49,21 @@ public class MyActivity extends Activity {
             case R.id.btnLinearBriefreturn:
                 setContentView(R.layout.main);
                 break;
+            case R.id.reativeBrief:
+                setContentView(R.layout.reative_brief);
+                break;
+            case R.id.reativeBriefReturn:
+                setContentView(R.layout.reative_layout);
+                break;
+            case R.id.btnRelativeReturn:
+                setContentView(R.layout.main);
+                break;
+            case R.id.tableBriefReturn:
+                setContentView(R.layout.table_layout);
+                break;
+            case R.id.btnTableBriefReturn:
+                setContentView(R.layout.main);
+                break;
         }
     }
 }
